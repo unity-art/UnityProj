@@ -1,0 +1,66 @@
+//IMPORTANT NOTE! THIS SCRIPT WAS MADE IN VIDEO NUMBER 21! Check out RespawnMenu to use the old one.
+
+#pragma strict
+
+var lookAround01 : MouseLook;
+var lookAround02 : MouseLook;
+var charController : CharacterController;
+
+var respawnTransform : Transform;
+
+static var playerIsDead = false;
+
+function Start () 
+{
+	lookAround01 = gameObject.GetComponent(MouseLook);
+	lookAround02 = GameObject.Find("MainCamera").GetComponent(MouseLook);
+	charController = gameObject.GetComponent(CharacterController);
+}
+
+function Update ()
+{
+	if (playerIsDead == true)
+	{
+		lookAround01.enabled = false;
+		lookAround02.enabled = false;
+		charController.enabled = false;
+	}
+}
+
+function OnGUI ()
+{
+	if (playerIsDead == true)
+	{
+		if (GUI.Button(Rect(Screen.width*0.5-50, 200-20, 100, 40), "Respawn"))
+		{
+			RespawnPlayer();
+		}
+		
+		if (GUI.Button(Rect(Screen.width*0.5-50, 240, 100, 40), "Menu"))
+		{
+			Debug.Log("Return to Menu");
+		}
+	}
+}
+
+//already called at the right time, should have things happening within...
+function RespawnPlayer ()
+{
+	//teleport player to respawn position
+	transform.position = respawnTransform.position;
+	transform.rotation = respawnTransform.rotation;
+	
+	//send a message to PlayerStatsV2 that player health should be reset... gameObject works because you are referencing something already attached to the same object (Player)
+	gameObject.SendMessage("RespawnStats");
+	
+	//re-enable components... like Update() above...
+	lookAround01.enabled = true;
+	lookAround02.enabled = true;
+	charController.enabled = true;
+	
+	//bring Player back from the dead...
+	playerIsDead = false;
+	Debug.Log("Player has respawned");
+}
+
+@script RequireComponent(CharacterController)
