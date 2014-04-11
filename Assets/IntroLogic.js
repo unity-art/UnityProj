@@ -37,6 +37,6 @@ function OnGUI ()
 		//first x, y is position, second x, y is for size of label
 		GUI.contentColor = Color.green;
 		GUI.backgroundColor = Color.gray;
-		GUI.Box (Rect (Screen.width*0.5-500, 200, 1000, 130), "<size=30>My Viking pals owe me a ton of money. \nThey've set up camp along the river \nsomewhere in this valley.</size>");
+		GUI.Box (Rect (Screen.width*0.5-150, 200, 400, 80), "<size=20>My Viking pals owe me a ton of money. \nThey've set up camp along the river \nsomewhere in this valley.</size>");
 	}
 }

@@ -37,6 +37,6 @@ function OnGUI ()
 		//first x, y is position, second x, y is for size of label
 		GUI.contentColor = Color.green;
 		GUI.backgroundColor = Color.gray;
-		GUI.Box (Rect (Screen.width*0.5-500, 200, 1000, 130), "<size=30>Press <RIGHT MOUSE> to throw a rock\nPress <SHIFT> to sprint\nPress <C> to crouch</size>");
+		GUI.Box (Rect (Screen.width*0.5-150, 200, 400, 80), "<size=20>Press <RIGHT MOUSE> to throw a rock\nPress <SHIFT> to sprint\nPress <C> to crouch</size>");
 	}
 }
