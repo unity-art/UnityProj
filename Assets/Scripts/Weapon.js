@@ -1,8 +1,8 @@
 ﻿#pragma strict
 
-var TheDammage : int = 50;
+var damage = 50;
 private var Distance : float;
-var MaxDistance : float = 1.5;
+var MaxDistance : float = 4.5;
 var TheAnimator : Animator;
 var DammageDelay : float = 0.6;
 
@@ -44,13 +44,17 @@ function AttackDammage ()
 	yield WaitForSeconds(DammageDelay);
 	//Actual attacking
 	var hit : RaycastHit;
-	var ray = Camera.main.ScreenPointToRay(Vector3(Screen.width/2, Screen.height/2, 0));
-	if (Physics.Raycast (ray, hit))
+	//var ray : Ray = Camera.main.ScreenPointToRay(Vector3(Screen.width*0.5, Screen.height*0.5, 0));
+	
+	if (Physics.Raycast(transform.position, transform.forward, hit))
+	
+	//if (Physics.Raycast (ray, hit))
 	{
 		Distance = hit.distance;
 		if (Distance < MaxDistance)
 		{
-			hit.transform.SendMessage("ApplyDamage", TheDammage, SendMessageOptions.DontRequireReceiver);
+			hit.transform.SendMessage("ApplyDamage", damage, SendMessageOptions.DontRequireReceiver);
+			Debug.Log("Hit");
 		}
 	}
 	
