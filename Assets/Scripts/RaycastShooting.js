@@ -25,7 +25,7 @@ function Update () {
 	var ray : Ray = Camera.main.ScreenPointToRay(Vector3(Screen.width*0.5, Screen.height*0.5, 0));
 	
 	//the 0 means the left mouse button
-	if (Input.GetMouseButtonDown(1))
+	if (Input.GetMouseButtonDown(3))
 	{
 		if (Physics.Raycast (ray, hit, 100))
 		{
