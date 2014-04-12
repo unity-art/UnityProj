@@ -7,4 +7,9 @@ public class ScoreManager : MonoBehaviour {
 	void Start () {
 		score = 0;
 	}
+	
+	public int EndLevel(int timeElapsed){
+		score += (int) Time.timeSinceLevelLoad;
+		return score;
+	}
 }

@@ -11,8 +11,6 @@ public class ZombieScript : MonoBehaviour {
 	public int attackSpeed;
 	public float attackPower;
 	private int attackCooldown;
-	private int attackAnimation;
-	private int attackAnimationCooldown;
 	private Animator animator;
 	// Use this for initialization
 	void Start () {
@@ -24,8 +22,6 @@ public class ZombieScript : MonoBehaviour {
 		rotationSpeed = 60;
 		attackSpeed = 60;
 		attackCooldown = 0;
-		attackAnimation = 10;
-		attackAnimationCooldown = 0;
 		attackPower = 10;
 		target = GameObject.FindGameObjectWithTag("Player").transform;
 	}
@@ -37,42 +33,43 @@ public class ZombieScript : MonoBehaviour {
 		float currentDist = Vector3.Distance(target.transform.position, transform.position);
 		
 		// if we are outside of attack distance but inside aggrodistance
-		if (currentDist > attackDistance && currentDist < aggroDistance){
+		if (currentDist > attackDistance && currentDist < aggroDistance && seePlayer){
 			// follow player
 			transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 			// transform.rotation = Quaternion.RotateTowards(transform.rotation, target.rotation, rotationSpeed * Time.deltaTime);
 			transform.LookAt(target.transform);
 			animator.SetFloat("xSpeed", speed * Time.deltaTime);
-		} else {
-			//rigidbody.velocity = Vector3.zero;
 		}
-		if (currentDist < attackDistance && attackCooldown <= 0){
+		
+		if (currentDist < attackDistance){
 			// in attack range and can attack
 			animator.SetBool("InAtkRange", true);
-			animator.SetBool("DetectPlayer", true);
-			animator.SetBool ("AttackCooldown", false);
-			attackCooldown = attackSpeed;
-			attackAnimationCooldown = attackAnimation;
-		} else if (currentDist < attackDistance && attackCooldown > 0){
-			// in attack range but cant attack
-			animator.SetBool ("AttackCooldown", true);
 		} else {
 			// not in attack range
 			animator.SetBool("InAtkRange", false);
-			animator.SetBool ("AttackCooldown", false);
 		}
-		Debug.Log("wtf");
 		
-		attackAnimationCooldown--;
-		attackCooldown--;
-		// if zombie is still in range and but attack is still cooling down
-		
-		/*else {
-			animator.SetBool("InAtkRange", false);
+		if (attackCooldown <= 0){
+			animator.SetBool ("AttackCooldown", false);
+			attackCooldown = attackSpeed;
+		} else {
+			animator.SetBool ("AttackCooldown", true);
+		}
+		Camera cam = this.camera;
+		Plane[] planes = GeometryUtility.CalculateFrustumPlanes(cam);
+		if (GeometryUtility.TestPlanesAABB(planes,target.collider.bounds)){
+			//if true, player is in camera view, raycast at player head for further check
+			Debug.Log("see player");
+			animator.SetBool("DetectPlayer", true);
+			seePlayer = true;
+		} else {
 			animator.SetBool("DetectPlayer", false);
-		}*/
+			seePlayer = false;
+		}
+		attackCooldown--;
 	}
 	
+	bool seePlayer;
 	private void ensureRefIntact(){
 		if (target == null){
 			this.enabled = false;

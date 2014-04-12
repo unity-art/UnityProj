@@ -61,8 +61,6 @@ public class JianAI : MonoBehaviour {
 			animator.SetBool("InAtkRange", false);
 			animator.SetBool ("AttackCooldown", false);
 		}
-		Debug.Log("wtf");
-		
 		attackAnimationCooldown--;
 		attackCooldown--;
 		// if zombie is still in range and but attack is still cooling down
