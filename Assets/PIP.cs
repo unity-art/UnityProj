@@ -8,8 +8,10 @@ public class PIP : MonoBehaviour {
 		if (Input.GetKeyDown("p")){
 			if (pip) {
 				transform.camera.depth = -9;
+				pip = false;
 			} else {
 				transform.camera.depth = 9;
+				pip = true;
 			}
 		}
 	}
