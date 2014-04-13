@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Character Models\Zombie\ZombieScript.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Temp\Compiled-Normal-Diffuse.shader">
     <Files>
-      <File FileName="Assets\Pickup.cs" Line="10" Column="4" />
-      <File FileName="Assets\Character Models\Zombie\ZombieScript.cs" Line="76" Column="4" />
-      <File FileName="Assets\Scripts\ScoreManager.cs" Line="14" Column="3" />
+      <File FileName="Temp\Compiled-Normal-Diffuse.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
