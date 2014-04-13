@@ -49,7 +49,7 @@ function UserForm()
     if ( GUILayout.Button( "Submit" ) )
     {
         submitted = true;
-        Application.LoadLevel(1);
+        Application.LoadLevel("1");
     }
     if ( GUILayout.Button( "Reset" ) )
     {
@@ -57,6 +57,10 @@ function UserForm()
         lastName = "Last Name";
        
         submitted = false;
+    }
+    if ( GUILayout.Button( "Credits" ) )
+    {
+      	Application.LoadLevel("Ending");
     }
      
    

@@ -42,6 +42,11 @@
 				GUI.color = new Color(1,1,1,1);
 			}
 			
+			if ( GUILayout.Button( "Back to Intro" ) )
+			{
+				Application.LoadLevel("INTRO");
+			}
+				
 			// We can throw in High Scores here
 		}
 		
