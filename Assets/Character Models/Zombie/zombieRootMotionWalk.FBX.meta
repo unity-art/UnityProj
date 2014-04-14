@@ -1,0 +1,2277 @@
+fileFormatVersion: 2
+guid: 31685adf0f957af44a1d70f4d0f5411c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: l_eye_mesh
+    100002: r_eye_mesh
+    100004: zombie_COM_ctrl
+    100006: zombie_Head_bone
+    100008: zombie_head_mesh
+    100010: zombie_l_ankle_bone
+    100012: zombie_l_ball_IKGoal
+    100014: zombie_l_Clav_bone
+    100016: zombie_l_Foot_ctrl
+    100018: zombie_l_Forearm_bone
+    100020: zombie_l_ForearmRoll1_bone
+    100022: zombie_l_ForearmRoll2_bone
+    100024: zombie_l_Hand_bone
+    100026: zombie_l_Hand_IK_ctrl
+    100028: zombie_l_Hand_IKGoal
+    100030: zombie_l_Heel_hlp
+    100032: zombie_l_heel_IKGoal
+    100034: zombie_l_HeelPeel_hlp
+    100036: zombie_l_Index_1_bone
+    100038: zombie_l_Index_2_bone
+    100040: zombie_l_Index_3_bone
+    100042: zombie_l_Index_ctrl
+    100044: zombie_l_knee_bone
+    100046: zombie_l_Middle_1_bone
+    100048: zombie_l_Middle_2_bone
+    100050: zombie_l_Middle_3_bone
+    100052: zombie_l_Middle_ctrl
+    100054: zombie_l_Pinky_1_bone
+    100056: zombie_l_Pinky_2_bone
+    100058: zombie_l_Pinky_3_bone
+    100060: zombie_l_Pinky_ctrl
+    100062: zombie_l_Ring_1_bone
+    100064: zombie_l_Ring_2_bone
+    100066: zombie_l_Ring_3_bone
+    100068: zombie_l_Ring_ctrl
+    100070: zombie_l_Shoulder_bone
+    100072: zombie_l_ShoulderRoll_bone
+    100074: zombie_l_thigh_bone
+    100076: zombie_l_Thumb_1_bone
+    100078: zombie_l_Thumb_2_bone
+    100080: zombie_l_Thumb_3_bone
+    100082: zombie_l_Thumb_ctrl
+    100084: zombie_l_toe_bone
+    100086: zombie_l_toe_IKGoal
+    100088: zombie_l_ToeLift_hlp
+    100090: zombie_l_ToeTap_hlp
+    100092: zombie_l_Wrist_bone
+    100094: zombie_Main_ctrl
+    100096: zombie_mesh
+    100098: zombie_Neck_bone
+    100100: zombie_Pelvis_bone
+    100102: zombie_r_ankle_bone
+    100104: zombie_r_ball_IKGoal
+    100106: zombie_r_Clav_bone
+    100108: zombie_r_Foot_ctrl
+    100110: zombie_r_Forearm_bone
+    100112: zombie_r_ForearmRoll1_bone
+    100114: zombie_r_ForearmRoll2_bone
+    100116: zombie_r_Hand_bone
+    100118: zombie_r_Hand_IK_ctrl
+    100120: zombie_r_Hand_IKGoal
+    100122: zombie_r_Heel_hlp
+    100124: zombie_r_heel_IKGoal
+    100126: zombie_r_HeelPeel_hlp
+    100128: zombie_r_Index_1_bone
+    100130: zombie_r_Index_2_bone
+    100132: zombie_r_Index_3_bone
+    100134: zombie_r_Index_ctrl
+    100136: zombie_r_knee_bone
+    100138: zombie_r_Middle_1_bone
+    100140: zombie_r_Middle_2_bone
+    100142: zombie_r_Middle_3_bone
+    100144: zombie_r_Middle_ctrl
+    100146: zombie_r_Pinky_1_bone
+    100148: zombie_r_Pinky_2_bone
+    100150: zombie_r_Pinky_3_bone
+    100152: zombie_r_Pinky_ctrl
+    100154: zombie_r_Ring_1_bone
+    100156: zombie_r_Ring_2_bone
+    100158: zombie_r_Ring_3_bone
+    100160: zombie_r_Ring_ctrl
+    100162: zombie_r_Shoulder_bone
+    100164: zombie_r_ShoulderRoll_bone
+    100166: zombie_r_thigh_bone
+    100168: zombie_r_Thumb_1_bone
+    100170: zombie_r_Thumb_2_bone
+    100172: zombie_r_Thumb_3_bone
+    100174: zombie_r_Thumb_ctrl
+    100176: zombie_r_toe_bone
+    100178: zombie_r_toe_IKGoal
+    100180: zombie_r_ToeLift_hlp
+    100182: zombie_r_ToeTap_hlp
+    100184: zombie_r_Wrist_bone
+    100186: zombie_Spine1_bone
+    100188: zombie_Spine2_bone
+    100190: zombie_Spine3_bone
+    100192: //RootNode
+    400000: l_eye_mesh
+    400002: r_eye_mesh
+    400004: zombie_COM_ctrl
+    400006: zombie_Head_bone
+    400008: zombie_head_mesh
+    400010: zombie_l_ankle_bone
+    400012: zombie_l_ball_IKGoal
+    400014: zombie_l_Clav_bone
+    400016: zombie_l_Foot_ctrl
+    400018: zombie_l_Forearm_bone
+    400020: zombie_l_ForearmRoll1_bone
+    400022: zombie_l_ForearmRoll2_bone
+    400024: zombie_l_Hand_bone
+    400026: zombie_l_Hand_IK_ctrl
+    400028: zombie_l_Hand_IKGoal
+    400030: zombie_l_Heel_hlp
+    400032: zombie_l_heel_IKGoal
+    400034: zombie_l_HeelPeel_hlp
+    400036: zombie_l_Index_1_bone
+    400038: zombie_l_Index_2_bone
+    400040: zombie_l_Index_3_bone
+    400042: zombie_l_Index_ctrl
+    400044: zombie_l_knee_bone
+    400046: zombie_l_Middle_1_bone
+    400048: zombie_l_Middle_2_bone
+    400050: zombie_l_Middle_3_bone
+    400052: zombie_l_Middle_ctrl
+    400054: zombie_l_Pinky_1_bone
+    400056: zombie_l_Pinky_2_bone
+    400058: zombie_l_Pinky_3_bone
+    400060: zombie_l_Pinky_ctrl
+    400062: zombie_l_Ring_1_bone
+    400064: zombie_l_Ring_2_bone
+    400066: zombie_l_Ring_3_bone
+    400068: zombie_l_Ring_ctrl
+    400070: zombie_l_Shoulder_bone
+    400072: zombie_l_ShoulderRoll_bone
+    400074: zombie_l_thigh_bone
+    400076: zombie_l_Thumb_1_bone
+    400078: zombie_l_Thumb_2_bone
+    400080: zombie_l_Thumb_3_bone
+    400082: zombie_l_Thumb_ctrl
+    400084: zombie_l_toe_bone
+    400086: zombie_l_toe_IKGoal
+    400088: zombie_l_ToeLift_hlp
+    400090: zombie_l_ToeTap_hlp
+    400092: zombie_l_Wrist_bone
+    400094: zombie_Main_ctrl
+    400096: zombie_mesh
+    400098: zombie_Neck_bone
+    400100: zombie_Pelvis_bone
+    400102: zombie_r_ankle_bone
+    400104: zombie_r_ball_IKGoal
+    400106: zombie_r_Clav_bone
+    400108: zombie_r_Foot_ctrl
+    400110: zombie_r_Forearm_bone
+    400112: zombie_r_ForearmRoll1_bone
+    400114: zombie_r_ForearmRoll2_bone
+    400116: zombie_r_Hand_bone
+    400118: zombie_r_Hand_IK_ctrl
+    400120: zombie_r_Hand_IKGoal
+    400122: zombie_r_Heel_hlp
+    400124: zombie_r_heel_IKGoal
+    400126: zombie_r_HeelPeel_hlp
+    400128: zombie_r_Index_1_bone
+    400130: zombie_r_Index_2_bone
+    400132: zombie_r_Index_3_bone
+    400134: zombie_r_Index_ctrl
+    400136: zombie_r_knee_bone
+    400138: zombie_r_Middle_1_bone
+    400140: zombie_r_Middle_2_bone
+    400142: zombie_r_Middle_3_bone
+    400144: zombie_r_Middle_ctrl
+    400146: zombie_r_Pinky_1_bone
+    400148: zombie_r_Pinky_2_bone
+    400150: zombie_r_Pinky_3_bone
+    400152: zombie_r_Pinky_ctrl
+    400154: zombie_r_Ring_1_bone
+    400156: zombie_r_Ring_2_bone
+    400158: zombie_r_Ring_3_bone
+    400160: zombie_r_Ring_ctrl
+    400162: zombie_r_Shoulder_bone
+    400164: zombie_r_ShoulderRoll_bone
+    400166: zombie_r_thigh_bone
+    400168: zombie_r_Thumb_1_bone
+    400170: zombie_r_Thumb_2_bone
+    400172: zombie_r_Thumb_3_bone
+    400174: zombie_r_Thumb_ctrl
+    400176: zombie_r_toe_bone
+    400178: zombie_r_toe_IKGoal
+    400180: zombie_r_ToeLift_hlp
+    400182: zombie_r_ToeTap_hlp
+    400184: zombie_r_Wrist_bone
+    400186: zombie_Spine1_bone
+    400188: zombie_Spine2_bone
+    400190: zombie_Spine3_bone
+    400192: //RootNode
+    2300000: l_eye_mesh
+    2300002: r_eye_mesh
+    3300000: l_eye_mesh
+    3300002: r_eye_mesh
+    4300000: zombie_head_mesh
+    4300002: zombie_mesh
+    4300004: l_eye_mesh
+    4300006: r_eye_mesh
+    7400000: idle
+    7400002: walk
+    7400004: attack
+    7400006: attack idle
+    7400008: Take 001
+    9500000: //RootNode
+    13700000: zombie_head_mesh
+    13700002: zombie_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zombie_head_mesh
+        weight: 0
+      - path: zombie_Main_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl/zombie_l_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone/zombie_l_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone/zombie_r_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl/zombie_r_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone/zombie_l_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone/zombie_l_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone/zombie_l_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone/zombie_l_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone/zombie_l_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/l_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/r_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone/zombie_r_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone/zombie_r_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone/zombie_r_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone/zombie_r_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone/zombie_r_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp/zombie_l_toe_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp/zombie_r_toe_IKGoal
+        weight: 0
+      - path: zombie_mesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zombie_head_mesh
+        weight: 0
+      - path: zombie_Main_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl/zombie_l_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone/zombie_l_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone/zombie_r_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl/zombie_r_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone/zombie_l_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone/zombie_l_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone/zombie_l_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone/zombie_l_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone/zombie_l_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/l_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/r_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone/zombie_r_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone/zombie_r_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone/zombie_r_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone/zombie_r_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone/zombie_r_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp/zombie_l_toe_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp/zombie_r_toe_IKGoal
+        weight: 0
+      - path: zombie_mesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 280
+      lastFrame: 312
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zombie_head_mesh
+        weight: 0
+      - path: zombie_Main_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl/zombie_l_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone/zombie_l_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone/zombie_r_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl/zombie_r_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone/zombie_l_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone/zombie_l_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone/zombie_l_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone/zombie_l_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone/zombie_l_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/l_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/r_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone/zombie_r_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone/zombie_r_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone/zombie_r_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone/zombie_r_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone/zombie_r_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp/zombie_l_toe_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp/zombie_r_toe_IKGoal
+        weight: 0
+      - path: zombie_mesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack idle
+      takeName: Take 001
+      firstFrame: 312
+      lastFrame: 343
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zombie_head_mesh
+        weight: 0
+      - path: zombie_Main_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl/zombie_l_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone/zombie_l_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone/zombie_r_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl/zombie_r_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone/zombie_l_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone/zombie_l_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone/zombie_l_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone/zombie_l_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone/zombie_l_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/l_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/r_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone/zombie_r_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone/zombie_r_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone/zombie_r_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone/zombie_r_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone/zombie_r_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp/zombie_l_toe_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp/zombie_r_toe_IKGoal
+        weight: 0
+      - path: zombie_mesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 343
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zombie_head_mesh
+        weight: 0
+      - path: zombie_Main_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_l_Hand_IK_ctrl/zombie_l_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_l_thigh_bone/zombie_l_knee_bone/zombie_l_ankle_bone/zombie_l_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Pelvis_bone/zombie_r_thigh_bone/zombie_r_knee_bone/zombie_r_ankle_bone/zombie_r_toe_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_r_Hand_IK_ctrl/zombie_r_Hand_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Index_ctrl/zombie_l_Index_1_bone/zombie_l_Index_2_bone/zombie_l_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Middle_ctrl/zombie_l_Middle_1_bone/zombie_l_Middle_2_bone/zombie_l_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Pinky_ctrl/zombie_l_Pinky_1_bone/zombie_l_Pinky_2_bone/zombie_l_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Ring_ctrl/zombie_l_Ring_1_bone/zombie_l_Ring_2_bone/zombie_l_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_Forearm_bone/zombie_l_Wrist_bone/zombie_l_Hand_bone/zombie_l_Thumb_ctrl/zombie_l_Thumb_1_bone/zombie_l_Thumb_2_bone/zombie_l_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_l_Clav_bone/zombie_l_Shoulder_bone/zombie_l_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/l_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_Neck_bone/zombie_Head_bone/r_eye_mesh
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll1_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_ForearmRoll2_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Index_ctrl/zombie_r_Index_1_bone/zombie_r_Index_2_bone/zombie_r_Index_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Middle_ctrl/zombie_r_Middle_1_bone/zombie_r_Middle_2_bone/zombie_r_Middle_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Pinky_ctrl/zombie_r_Pinky_1_bone/zombie_r_Pinky_2_bone/zombie_r_Pinky_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Ring_ctrl/zombie_r_Ring_1_bone/zombie_r_Ring_2_bone/zombie_r_Ring_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone
+        weight: 1
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_Forearm_bone/zombie_r_Wrist_bone/zombie_r_Hand_bone/zombie_r_Thumb_ctrl/zombie_r_Thumb_1_bone/zombie_r_Thumb_2_bone/zombie_r_Thumb_3_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_COM_ctrl/zombie_Spine1_bone/zombie_Spine2_bone/zombie_Spine3_bone/zombie_r_Clav_bone/zombie_r_Shoulder_bone/zombie_r_ShoulderRoll_bone
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_HeelPeel_hlp/zombie_l_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_l_Foot_ctrl/zombie_l_Heel_hlp/zombie_l_ToeLift_hlp/zombie_l_ToeTap_hlp/zombie_l_toe_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_ball_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_HeelPeel_hlp/zombie_r_heel_IKGoal
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp
+        weight: 0
+      - path: zombie_Main_ctrl/zombie_r_Foot_ctrl/zombie_r_Heel_hlp/zombie_r_ToeLift_hlp/zombie_r_ToeTap_hlp/zombie_r_toe_IKGoal
+        weight: 0
+      - path: zombie_mesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0460000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: zombie_COM_ctrl
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_thigh_bone
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_thigh_bone
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_knee_bone
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_knee_bone
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_ankle_bone
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_ankle_bone
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_Spine2_bone
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_Spine3_bone
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_Neck_bone
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_Head_bone
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Clav_bone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Clav_bone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Shoulder_bone
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Shoulder_bone
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Forearm_bone
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Forearm_bone
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Wrist_bone
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Wrist_bone
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_toe_bone
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_toe_bone
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: l_eye_mesh
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: r_eye_mesh
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Thumb_ctrl
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Thumb_1_bone
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Thumb_2_bone
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Index_ctrl
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Index_1_bone
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Index_2_bone
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Middle_ctrl
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Middle_1_bone
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Middle_2_bone
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Ring_ctrl
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Ring_1_bone
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Ring_2_bone
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Pinky_ctrl
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Pinky_1_bone
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_l_Pinky_2_bone
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Thumb_ctrl
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Thumb_1_bone
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Thumb_2_bone
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Index_ctrl
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Index_1_bone
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Index_2_bone
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Middle_ctrl
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Middle_1_bone
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Middle_2_bone
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Ring_ctrl
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Ring_1_bone
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Ring_2_bone
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Pinky_ctrl
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Pinky_1_bone
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: zombie_r_Pinky_2_bone
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: zombieRootMotionWalk(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_head_mesh
+      position: {x: 0, y: .0162070189, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_Main_ctrl
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_COM_ctrl
+      position: {x: 5.48362733e-09, y: -.04561143, z: 1.81865752}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_l_Hand_IK_ctrl
+      position: {x: -.511331141, y: .106903449, z: -.142664686}
+      rotation: {x: -.0232299715, y: -.753394723, z: .0182833467, w: .656903803}
+      scale: {x: 1.0000006, y: 1.00000048, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_l_Hand_IKGoal
+      position: {x: -0, y: 9.32216651e-08, z: 0}
+      rotation: {x: .00219647423, y: .00462271133, z: -.0251935683, w: .999669492}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: zombie_Pelvis_bone
+      position: {x: 2.23816521e-11, y: -.0803540498, z: .016523242}
+      rotation: {x: .706344604, y: -.0328226984, z: .706344604, w: -.0328222364}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: zombie_l_thigh_bone
+      position: {x: -.114063293, y: -6.29843198e-05, z: -.181010962}
+      rotation: {x: -1.6508109e-07, y: -2.7439004e-08, z: -.0280848965, w: .999605536}
+      scale: {x: .99999994, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: zombie_l_knee_bone
+      position: {x: -.777185559, y: 4.18110687e-07, z: -9.76442838e-09}
+      rotation: {x: 3.72050266e-07, y: -6.88062656e-08, z: .0340452343, w: .999420285}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: zombie_l_ankle_bone
+      position: {x: -.767413259, y: 5.5125206e-06, z: 1.12224129e-07}
+      rotation: {x: -7.08229209e-08, y: -1.70671342e-07, z: -.563646257, w: .826016307}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: zombie_l_toe_bone
+      position: {x: -.297394544, y: -2.42604642e-07, z: 1.70914962e-08}
+      rotation: {x: 4.73636455e-08, y: 5.06269544e-07, z: -.222124949, w: .975018203}
+      scale: {x: .99999994, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: zombie_r_thigh_bone
+      position: {x: -.114062719, y: -6.31880102e-05, z: .18101114}
+      rotation: {x: 5.32304822e-09, y: -3.2939397e-07, z: -.999605536, w: -.0280849449}
+      scale: {x: 1.00000036, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_r_knee_bone
+      position: {x: .777186275, y: -5.3082556e-07, z: -5.18552028e-08}
+      rotation: {x: -3.1547728e-07, y: -4.63697774e-08, z: .0340452939, w: .999420285}
+      scale: {x: .999999821, y: 1, z: .999999762}
+      transformModified: 1
+    - name: zombie_r_ankle_bone
+      position: {x: .767413735, y: -5.34676701e-06, z: -1.41210521e-07}
+      rotation: {x: -1.6580006e-07, y: 5.9434285e-07, z: .563646436, w: -.826016188}
+      scale: {x: 1.00000024, y: 1.00000048, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_r_toe_bone
+      position: {x: .297394276, y: 9.88559705e-08, z: 5.90855826e-08}
+      rotation: {x: 1.53413191e-06, y: -3.0999459e-07, z: -.222124636, w: .975018263}
+      scale: {x: .999999702, y: .999999344, z: .999999762}
+      transformModified: 1
+    - name: zombie_r_Hand_IK_ctrl
+      position: {x: .567693174, y: .0621764809, z: -.148908302}
+      rotation: {x: -.671727061, y: .0189803094, z: .740209401, w: -.0226397179}
+      scale: {x: 1.00000107, y: .99999994, z: 1.00000036}
+      transformModified: 1
+    - name: zombie_r_Hand_IKGoal
+      position: {x: -0, y: -2.74181371e-08, z: 1.75476075e-07}
+      rotation: {x: .999552727, y: -.0295156073, z: -.00463678595, w: -.00129533967}
+      scale: {x: .999999821, y: .999999642, z: .999999702}
+      transformModified: 1
+    - name: zombie_Spine1_bone
+      position: {x: 2.24931185e-11, y: -.08035402, z: .0165228844}
+      rotation: {x: .0665529445, y: -.703967869, z: .0665530711, w: -.70396781}
+      scale: {x: .99999994, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: zombie_Spine2_bone
+      position: {x: -.187496066, y: -1.40711234e-06, z: 1.82355397e-09}
+      rotation: {x: 8.53922941e-08, y: 9.14766147e-08, z: -.0878652632, w: .996132374}
+      scale: {x: .999999583, y: .999999583, z: .99999994}
+      transformModified: 1
+    - name: zombie_Spine3_bone
+      position: {x: -.204399705, y: -1.3374931e-07, z: -3.46683038e-08}
+      rotation: {x: -2.00436534e-06, y: -2.66276544e-07, z: -.185449019, w: -.982653916}
+      scale: {x: 1.00000072, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: zombie_l_Clav_bone
+      position: {x: -.372715443, y: -.174502343, z: -.014050493}
+      rotation: {x: .110924907, y: -.700748026, z: -.118638173, w: .694674611}
+      scale: {x: .999999821, y: 1.00000012, z: .999999642}
+      transformModified: 1
+    - name: zombie_l_Shoulder_bone
+      position: {x: -.343760163, y: 2.07301287e-09, z: -2.96559818e-07}
+      rotation: {x: 3.04380094e-08, y: 4.84035318e-08, z: .181435317, w: .983402967}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: zombie_l_Forearm_bone
+      position: {x: -.501811922, y: 7.94880748e-08, z: 2.67052172e-07}
+      rotation: {x: -.000325316709, y: .00203758874, z: .0193067677, w: .99981153}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: zombie_l_ForearmRoll1_bone
+      position: {x: -.295872033, y: 4.46163533e-08, z: -8.00913483e-07}
+      rotation: {x: 1.06895943e-10, y: 5.29384447e-09, z: -1.05180407e-08, w: 1}
+      scale: {x: .999999821, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: zombie_l_ForearmRoll2_bone
+      position: {x: -.147882015, y: 3.29736061e-08, z: 1.73862162e-07}
+      rotation: {x: 5.80454518e-10, y: 4.36353709e-08, z: -8.21399038e-09, w: 1}
+      scale: {x: .99999994, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_l_Wrist_bone
+      position: {x: -.442430735, y: 1.13194304e-07, z: -4.1224763e-07}
+      rotation: {x: 5.84128745e-10, y: 4.22944986e-08, z: 9.98002014e-10, w: 1}
+      scale: {x: 1.00000012, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: zombie_l_Hand_bone
+      position: {x: -5.01573084e-07, y: -2.55556571e-08, z: -2.37991253e-06}
+      rotation: {x: .710004747, y: .00643596658, z: -.00641781231, w: .704138279}
+      scale: {x: .999999642, y: .999999702, z: 1.00000024}
+      transformModified: 1
+    - name: zombie_l_Index_ctrl
+      position: {x: -.157699645, y: .00830469001, z: .0892966241}
+      rotation: {x: -.00164623908, y: .00472361501, z: -.0490218252, w: .998785198}
+      scale: {x: 1.00000012, y: .999999702, z: .999999583}
+      transformModified: 1
+    - name: zombie_l_Index_1_bone
+      position: {x: 6.26778052e-09, y: 5.37563267e-07, z: 7.65844916e-08}
+      rotation: {x: -8.68031265e-08, y: -.0192097723, z: .0250658896, w: .999501288}
+      scale: {x: 1, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: zombie_l_Index_2_bone
+      position: {x: -.0999947712, y: 4.96118275e-07, z: -7.4363534e-08}
+      rotation: {x: -1.62967009e-08, y: -7.7469366e-08, z: .0413735025, w: .999143839}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_l_Index_3_bone
+      position: {x: -.0654709116, y: 6.35197466e-06, z: 1.26495763e-07}
+      rotation: {x: 2.57084238e-08, y: -3.20003473e-08, z: .0519693121, w: .998648703}
+      scale: {x: 1.00000024, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: zombie_l_Middle_ctrl
+      position: {x: -.161704183, y: .00858997088, z: .0344201699}
+      rotation: {x: -8.42465215e-06, y: -.0189220272, z: -.062787503, w: .997847557}
+      scale: {x: 1.00000012, y: .999999762, z: .999999702}
+      transformModified: 1
+    - name: zombie_l_Middle_1_bone
+      position: {x: -7.02468924e-07, y: 1.2771186e-06, z: 1.16375276e-09}
+      rotation: {x: 5.32766578e-08, y: -.00906635635, z: .0323063135, w: .999436975}
+      scale: {x: 1.00000024, y: 1, z: 1.00000083}
+      transformModified: 1
+    - name: zombie_l_Middle_2_bone
+      position: {x: -.105092078, y: 1.51396108e-07, z: 2.12400697e-09}
+      rotation: {x: -5.65286371e-07, y: 1.65160642e-07, z: .0398077406, w: .999207437}
+      scale: {x: 1, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: zombie_l_Middle_3_bone
+      position: {x: -.085405536, y: 7.77873811e-06, z: 1.06435332e-08}
+      rotation: {x: -5.09022129e-07, y: -3.10204804e-08, z: .0438370518, w: .999038756}
+      scale: {x: 1.00000024, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: zombie_l_Pinky_ctrl
+      position: {x: -.147484839, y: -.00375378411, z: -.0670071244}
+      rotation: {x: .00162574742, y: -.0531769954, z: -.0469986089, w: .997477174}
+      scale: {x: 1.00000012, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: zombie_l_Pinky_1_bone
+      position: {x: -4.2596389e-07, y: 3.7981016e-07, z: 1.22603456e-08}
+      rotation: {x: 4.70497739e-08, y: .0041419426, z: .0156682413, w: .999868691}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: zombie_l_Pinky_2_bone
+      position: {x: -.0913070217, y: 1.17408706e-06, z: 1.68249006e-08}
+      rotation: {x: 6.94238693e-08, y: 2.00409303e-07, z: .0393233448, w: .999226511}
+      scale: {x: 1.00000012, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: zombie_l_Pinky_3_bone
+      position: {x: -.0676989332, y: 6.09158542e-06, z: -3.87719403e-08}
+      rotation: {x: -3.12664326e-07, y: 3.13458521e-08, z: .0753847733, w: .997154534}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: zombie_l_Ring_ctrl
+      position: {x: -.160773113, y: .00858255662, z: -.0196854323}
+      rotation: {x: .00102402631, y: -.0323678441, z: -.0646676272, w: .99738127}
+      scale: {x: 1.00000012, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: zombie_l_Ring_1_bone
+      position: {x: -5.57345288e-07, y: 1.04226365e-06, z: 1.48300983e-09}
+      rotation: {x: 1.70518831e-07, y: -.00286480575, z: .0328974538, w: .999454677}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.0000006}
+      transformModified: 1
+    - name: zombie_l_Ring_2_bone
+      position: {x: -.0966254473, y: -7.67669007e-07, z: 6.56757981e-09}
+      rotation: {x: -3.23207814e-07, y: 2.03847932e-07, z: .0387072302, w: .999250591}
+      scale: {x: .999999881, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: zombie_l_Ring_3_bone
+      position: {x: -.0807154998, y: 7.86570035e-06, z: -1.0975131e-08}
+      rotation: {x: -4.09430527e-07, y: -6.29077803e-08, z: .0722198188, w: .997388721}
+      scale: {x: 1.00000048, y: 1.00000036, z: .999999881}
+      transformModified: 1
+    - name: zombie_l_Thumb_ctrl
+      position: {x: -.0264028329, y: -.0166505296, z: .0593646206}
+      rotation: {x: -.657380819, y: .127446219, z: .240433559, w: .702708781}
+      scale: {x: .999999583, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: zombie_l_Thumb_1_bone
+      position: {x: -5.72574947e-07, y: 5.82564667e-07, z: 2.12148484e-06}
+      rotation: {x: -.0286617391, y: .0568229258, z: .112787038, w: .991578996}
+      scale: {x: 1, y: 1.0000006, z: 1.0000006}
+      transformModified: 1
+    - name: zombie_l_Thumb_2_bone
+      position: {x: -.0839499459, y: -3.35553466e-07, z: -4.84998111e-07}
+      rotation: {x: -2.70657154e-07, y: -1.61976857e-06, z: -.033559721, w: .999436736}
+      scale: {x: 1.00000012, y: .999999702, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_l_Thumb_3_bone
+      position: {x: -.077683419, y: -7.51567484e-07, z: 4.05933065e-08}
+      rotation: {x: -9.07138986e-09, y: -3.24624452e-08, z: .0243454445, w: .999703586}
+      scale: {x: 1, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: zombie_l_ShoulderRoll_bone
+      position: {x: 1.38451384e-07, y: 6.84229065e-08, z: -4.77962033e-07}
+      rotation: {x: 2.10397214e-10, y: -5.23960386e-09, z: -1.05347482e-08, w: 1}
+      scale: {x: 1.00000012, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: zombie_Neck_bone
+      position: {x: -.500049949, y: -1.20218942e-06, z: 4.28957136e-08}
+      rotation: {x: -4.02252795e-07, y: 1.88807281e-08, z: .00102185877, w: .999999464}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: zombie_Head_bone
+      position: {x: -.192255631, y: 5.0718743e-08, z: 5.56203306e-09}
+      rotation: {x: -1.36993322e-06, y: 7.15015176e-08, z: .0356141031, w: .999365628}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: l_eye_mesh
+      position: {x: -.137351796, y: -.179321378, z: .0822203681}
+      rotation: {x: -.0289365817, y: -.706514478, z: -.0289365817, w: .706514478}
+      scale: {x: 1, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: r_eye_mesh
+      position: {x: -.137351438, y: -.179321453, z: -.0822207183}
+      rotation: {x: -.0289365817, y: -.706514478, z: -.0289365817, w: .706514478}
+      scale: {x: 1, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: zombie_r_Clav_bone
+      position: {x: -.372714996, y: -.174502283, z: .0140309548}
+      rotation: {x: .70074749, y: .110929079, z: .694673836, w: .118642069}
+      scale: {x: .999999821, y: .999999523, z: .999999702}
+      transformModified: 1
+    - name: zombie_r_Shoulder_bone
+      position: {x: .343760282, y: -1.23341891e-07, z: -1.6539866e-07}
+      rotation: {x: 1.09006891e-07, y: -4.2885663e-08, z: .181435257, w: .983402908}
+      scale: {x: 1, y: 1, z: .999999523}
+      transformModified: 1
+    - name: zombie_r_Forearm_bone
+      position: {x: .501811862, y: -1.9651192e-07, z: -1.0628637e-06}
+      rotation: {x: 1.89699767e-06, y: .00204438297, z: .0193058699, w: .99981159}
+      scale: {x: 1.00000012, y: .999999821, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_r_ForearmRoll1_bone
+      position: {x: .295720071, y: -8.0939131e-08, z: -3.52759599e-07}
+      rotation: {x: -2.53920803e-07, y: -5.31549293e-09, z: -1.64744307e-07, w: 1}
+      scale: {x: .999999881, y: 1.00000048, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_r_ForearmRoll2_bone
+      position: {x: .148703277, y: -1.25435136e-07, z: -2.62827342e-07}
+      rotation: {x: -2.11778115e-07, y: 8.24925195e-09, z: -1.50781986e-07, w: 1}
+      scale: {x: 1, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_r_Wrist_bone
+      position: {x: .442430288, y: 5.19931511e-08, z: 6.6570999e-07}
+      rotation: {x: 1.26227263e-07, y: 7.15437087e-09, z: 1.71636649e-09, w: 1}
+      scale: {x: 1, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: zombie_r_Hand_bone
+      position: {x: 2.63167331e-05, y: -1.54305508e-06, z: 1.66112295e-06}
+      rotation: {x: .707871735, y: -1.15598414e-05, z: 1.20461573e-05, w: .706341028}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: zombie_r_Index_ctrl
+      position: {x: .157310084, y: -.0130641498, z: -.0894138366}
+      rotation: {x: -.00161123322, y: .00532726431, z: -.0490217246, w: .998782218}
+      scale: {x: 1, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: zombie_r_Index_1_bone
+      position: {x: 4.0953671e-07, y: -8.16019394e-07, z: 1.61429714e-08}
+      rotation: {x: -.000821779424, y: -.0216954108, z: .0326275192, w: .999231756}
+      scale: {x: 1.00000024, y: 1.00000012, z: .999999702}
+      transformModified: 1
+    - name: zombie_r_Index_2_bone
+      position: {x: .0998049676, y: -.00362842088, z: .000100765974}
+      rotation: {x: -3.39289691e-05, y: -.000519009423, z: .041227486, w: .999149621}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: zombie_r_Index_3_bone
+      position: {x: .0663550943, y: -.00240038452, z: -3.46122556e-06}
+      rotation: {x: 1.62027809e-05, y: -.00058656797, z: .0519678257, w: .998648584}
+      scale: {x: .99999994, y: .99999994, z: 1.00000024}
+      transformModified: 1
+    - name: zombie_r_Middle_ctrl
+      position: {x: .161290765, y: -.0140961688, z: -.0345444083}
+      rotation: {x: 3.79722333e-05, y: -.0182804819, z: -.062786445, w: .997859538}
+      scale: {x: 1, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: zombie_r_Middle_1_bone
+      position: {x: -4.90572461e-07, y: 3.20053914e-07, z: 2.08753654e-08}
+      rotation: {x: -.000421417295, y: -.0104450788, z: .0415825509, w: .99908042}
+      scale: {x: 1.00000024, y: 1.00000036, z: .999999881}
+      transformModified: 1
+    - name: zombie_r_Middle_2_bone
+      position: {x: .104694784, y: -.00386141287, z: 9.03901309e-05}
+      rotation: {x: -2.16873395e-05, y: -.000532155856, z: .0395789221, w: .999216378}
+      scale: {x: .99999994, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_r_Middle_3_bone
+      position: {x: .0871479735, y: -.0031842133, z: 1.99733931e-05}
+      rotation: {x: 2.23838342e-05, y: -.00041839818, z: .0438347347, w: .999038696}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: zombie_r_Pinky_ctrl
+      position: {x: .147509933, y: -.00235401164, z: .0670148358}
+      rotation: {x: .0016462378, y: -.052815605, z: -.0469976664, w: .997496367}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: zombie_r_Pinky_1_bone
+      position: {x: 2.65096276e-07, y: 3.88421569e-07, z: 1.48548224e-07}
+      rotation: {x: .000211207458, y: .00550056249, z: .0251610242, w: .9996683}
+      scale: {x: .99999994, y: 1.00000083, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_r_Pinky_2_bone
+      position: {x: .090586707, y: -.00340131694, z: -1.72875771e-05}
+      rotation: {x: 2.68172189e-05, y: 4.44109137e-05, z: .0389048457, w: .999242902}
+      scale: {x: .999999821, y: .999999821, z: .999999702}
+      transformModified: 1
+    - name: zombie_r_Pinky_3_bone
+      position: {x: .0699648634, y: -.0025770003, z: 6.79227232e-05}
+      rotation: {x: 7.13618283e-05, y: -.000522863877, z: .0753848702, w: .997154355}
+      scale: {x: 1.00000036, y: 1.00000024, z: 1.00000048}
+      transformModified: 1
+    - name: zombie_r_Ring_ctrl
+      position: {x: .160349682, y: -.0146467248, z: .0195580423}
+      rotation: {x: .00106809428, y: -.0317774713, z: -.0646655187, w: .997400343}
+      scale: {x: 1, y: 1.00000024, z: 1.00000036}
+      transformModified: 1
+    - name: zombie_r_Ring_1_bone
+      position: {x: 1.31896627e-07, y: -4.32707679e-07, z: 3.67828301e-09}
+      rotation: {x: -.000162508499, y: -.00336906943, z: .0426105261, w: .999086082}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_r_Ring_2_bone
+      position: {x: .0961478576, y: -.00357250101, z: 8.392569e-05}
+      rotation: {x: -1.00452417e-06, y: -.00056219229, z: .0383839272, w: .999262929}
+      scale: {x: 1.00000012, y: .999999762, z: .999999464}
+      transformModified: 1
+    - name: zombie_r_Ring_3_bone
+      position: {x: .0829987824, y: -.00304154959, z: 9.19871218e-06}
+      rotation: {x: 7.51280604e-05, y: -.000612998963, z: .072218217, w: .997388661}
+      scale: {x: 1.00000024, y: 1.00000048, z: 1.0000006}
+      transformModified: 1
+    - name: zombie_r_Thumb_ctrl
+      position: {x: .0270031355, y: .0163265131, z: -.0591842309}
+      rotation: {x: -.679020703, y: .172692716, z: .242686093, w: .670978069}
+      scale: {x: .99999994, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: zombie_r_Thumb_1_bone
+      position: {x: -2.12848562e-07, y: 2.20586731e-08, z: 5.78220465e-07}
+      rotation: {x: -.00604995573, y: .0225844253, z: .082861051, w: .996286869}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: zombie_r_Thumb_2_bone
+      position: {x: .0839511156, y: -.00103618926, z: .000398775621}
+      rotation: {x: .00224733143, y: .000598933839, z: -.0335591882, w: .999434114}
+      scale: {x: .99999994, y: .999999702, z: 1.00000012}
+      transformModified: 1
+    - name: zombie_r_Thumb_3_bone
+      position: {x: .0770509839, y: -.000945833337, z: .000282735971}
+      rotation: {x: -.000504849188, y: -.000715791946, z: .0243379697, w: .999703407}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: zombie_r_ShoulderRoll_bone
+      position: {x: -1.47172031e-07, y: 4.18949e-08, z: 7.16891293e-07}
+      rotation: {x: -3.35325609e-07, y: -5.0783683e-08, z: -5.37052749e-08, w: 1}
+      scale: {x: .999999702, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_l_Foot_ctrl
+      position: {x: -.181011036, y: -.00654604705, z: .181748554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_l_Heel_hlp
+      position: {x: -0, y: .110065013, z: -.181748554}
+      rotation: {x: .49999994, y: .500000358, z: .5, w: .499999702}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_l_ToeLift_hlp
+      position: {x: -.539072871, y: -4.38690186e-08, z: -4.27722938e-07}
+      rotation: {x: 0, y: 1.24344979e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_l_HeelPeel_hlp
+      position: {x: .164947152, y: .0449444018, z: -1.09672547e-08}
+      rotation: {x: 0, y: 1.24344979e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_l_ball_IKGoal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -.5, y: -.50000006, z: -.5, w: .50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_l_heel_IKGoal
+      position: {x: .264060646, y: .136804178, z: 2.63214105e-07}
+      rotation: {x: -.499019265, y: -.500978887, z: -.499019265, w: .500978887}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_l_ToeTap_hlp
+      position: {x: .164947152, y: .0449444018, z: -1.09672547e-08}
+      rotation: {x: 0, y: 1.24344979e-14, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_l_toe_IKGoal
+      position: {x: -.16243048, y: -.00487744529, z: -2.19345093e-08}
+      rotation: {x: -.5, y: -.50000006, z: -.5, w: .50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_r_Foot_ctrl
+      position: {x: .180060163, y: -.00654512597, z: .181743443}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_r_Heel_hlp
+      position: {x: .000950860966, y: .110064089, z: -.181743443}
+      rotation: {x: -.499998838, y: .499999106, z: -.500001252, w: .500000775}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_r_ToeLift_hlp
+      position: {x: .539072871, y: 4.38689334e-08, z: 2.19345097e-07}
+      rotation: {x: 0, y: -5.77315973e-15, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_r_HeelPeel_hlp
+      position: {x: -.164947361, y: -.0449440964, z: 1.42574308e-07}
+      rotation: {x: 0, y: -5.77315973e-15, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_r_ball_IKGoal
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: .501580775, y: -.498414278, z: .501580775, w: .498414278}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_r_heel_IKGoal
+      position: {x: -.264060438, y: -.136804014, z: 3.39984894e-07}
+      rotation: {x: .499401242, y: -.500598073, z: .499401242, w: .500598073}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_r_ToeTap_hlp
+      position: {x: -.164947361, y: -.0449440964, z: 1.42574308e-07}
+      rotation: {x: 0, y: -5.77315973e-15, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_r_toe_IKGoal
+      position: {x: .162430853, y: .00487752492, z: -6.58035262e-08}
+      rotation: {x: .501580775, y: -.498414278, z: .501580775, w: .498414278}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: zombie_mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
